@@ -12,19 +12,19 @@ let count = 0;
 // increase button
 
 increaseBtn.onclick = function () {
-    count++;
-    counteLabel.textContent = count;
+    count++; //increases everytiime when pressed
+    counteLabel.textContent = count; //captures the countLabel and updates the new count
 }
 
 // decrease button
 
 decreaseBtn.onclick = function () {
-    count--;
-    counteLabel.textContent = count;
+    count--; //decrease everytiime when pressed
+    counteLabel.textContent = count; //captures the countLabel and updates the new count
 }
 
 // reset button 
 resetBtn.onclick = function () {
-    count = 0;
-    counteLabel.textContent = count;
+    count = 0; // provided the value 0 because if we just leave count it will just show the current value and not reset them
+    counteLabel.textContent = count; //captures the countLabel and updates the new count
 }
