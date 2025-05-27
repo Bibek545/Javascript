@@ -1,0 +1,27 @@
+body {
+    
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#btncontainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 20px 20px;
+    font-size: 1.5em;
+    background-color: beige;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    background-color: aliceblue;
+}
